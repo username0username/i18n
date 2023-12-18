@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internationalized Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 id="title">Тест интернационализации</h1>
+  </header>
+
+  <article>
+    <h2 id="articleTitle">Заголовок</h2>
+    <p id="articleText">Текст Текст Текст</p>
+    <img src=img.png>
+  </article>
+
+  <div class="language-selector">
+    <label for="languageSelector">Язык:</label>
+    <select id="languageSelector" onchange="changeLanguage()">
+        <option value="ru" selected>Русский</option>
+        <option value="en">English</option>
+        <option value="es">Español</option>
+      </select>
+      
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
